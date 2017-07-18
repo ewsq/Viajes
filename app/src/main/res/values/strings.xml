@@ -10,10 +10,19 @@
     <string name="Add_Item">Add Hotel</string>
     <string name="progress_dialog_loading">Loading ....</string>
     <string name="progress_dialog_authenticating_with_firebase">Please wait</string>
-    <string name="key">AIzaSyBvbjjSa_2-e9IMc3wjXaQmjQyFah7-AG0</string>
     <string name="notifications">Notifications</string>
     <string name="show_chat_notifications">show chat notifications</string>
     <string name="change_account_password">Change Account Password</string>
 
+    <string name="key">AIzaSyBvbjjSa_2-e9IMc3wjXaQmjQyFah7-AG0</string>
 
 </resources>
+
+
+
+
+
+
+
+
+

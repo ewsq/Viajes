@@ -64,6 +64,7 @@ public class HotelsRepository implements HotelsDataSource {
     }
 
 
+    public static void DestroyInstance(){INSTANCE = null;}
     @Override
     public void getHotels(@Nullable final LoadHotelCallback callback) {
         list.clear();

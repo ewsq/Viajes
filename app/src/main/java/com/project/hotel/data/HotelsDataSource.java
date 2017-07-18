@@ -48,4 +48,6 @@ public interface HotelsDataSource {
     void searchData(@Nullable Hotel hotel ,@Nullable LoadHotelCallback callback);
 
     void setLiked(boolean liked ,Hotel hotel);
+
+
 }

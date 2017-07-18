@@ -161,6 +161,11 @@ public class MapFragment extends Fragment implements HotelContractor.View,OnMapR
     }
 
     @Override
+    public boolean isActive() {
+        return isAdded();
+    }
+
+    @Override
     public void onLowMemory() {
         super.onLowMemory();
         if(mMapView!=null) mMapView.onLowMemory();

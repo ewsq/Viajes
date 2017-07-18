@@ -119,6 +119,12 @@ public class HotelsFragment extends Fragment implements HotelContractor.View,Hot
     }
 
     @Override
+    public boolean isActive() {
+        return isAdded();
+
+    }
+
+    @Override
     public void onItem(Hotel item) {
 
         Intent i = new Intent(getActivity(), HotelDetailActivity.class);
